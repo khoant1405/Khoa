@@ -1,0 +1,17 @@
+<p>Nhập chuỗi số:</p>
+<div class="container" style="margin-bottom: 1rem">
+  <div class="row">
+    <div class="col-10">
+      <input id="inputArray" type="text" class="form-control">
+    </div>
+    <div class="col-1">
+      <button id="btnSubmit" type="button" class="btn btn-primary" style="width: 100%"
+        (click)="btnsubmit_onClick()">Submit</button>
+    </div>
+    <div class="col-1">
+      <button id="btnReset" type="button" class="btn btn-primary" style="width: 100%"
+        (click)="btnreset_onClick()">Reset</button>
+    </div>
+  </div>
+</div>
+<p style="overflow-wrap:break-word" id="resultString">{{arrayaftersort}}</p>
